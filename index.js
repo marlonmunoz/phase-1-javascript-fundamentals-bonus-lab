@@ -5,11 +5,11 @@ const password = "flatironschool";
 
 let isAuthorized 
 
-if(username === "alice123" && password ==='flatironschool'){
-    isAuthorized = true;
+if(username === "alice123" && password === "flatironschool"){
+    isAuthorized = true
 }
 else{
-    isAuthorized = false;
+    isAuthorized = false
 }
 
 const loginValidationPhrase = isAuthorized === true? "Welcome " + username + "!" : "Invalid username or password!"
